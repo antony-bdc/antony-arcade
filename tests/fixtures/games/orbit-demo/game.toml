@@ -1,0 +1,5 @@
+title = "Orbit demo"
+description = "Fixture used by the tests."
+year = 2026
+tags = ["canvas"]
+controls = "Mouse"
