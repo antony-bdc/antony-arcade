@@ -1,5 +1,5 @@
 [project]
-name = "games-showcase"
+name = "antony-arcade"
 version = "1.0.0"
 requires-python = ">=3.11"
 dependencies = []

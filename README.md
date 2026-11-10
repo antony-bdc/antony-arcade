@@ -1,4 +1,4 @@
-# games-showcase
+# antony-arcade
 
 My browser games in one place, playable without installing anything.
 Every push checks each game, builds a gallery and publishes it to GitHub Pages.

@@ -18,7 +18,7 @@ def make_game(root: Path, slug: str, toml: str | None = 'title="T"\ndescription=
 
 
 def test_builds_fixture(tmp_path):
-    games = build.build(FIXTURES, tmp_path / "site", "https://github.com/x/games-showcase")
+    games = build.build(FIXTURES, tmp_path / "site", "https://github.com/x/antony-arcade")
     assert [g.slug for g in games] == ["orbit-demo"]
     html = (tmp_path / "site" / "index.html").read_text()
     assert "Orbit demo" in html and 'href="orbit-demo/"' in html and "{{" not in html
